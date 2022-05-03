@@ -1,0 +1,32 @@
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+input {
+    width: 222px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+input:first-child {
+    max-width: 444px;
+    width: 100%;
+}
+
+input:nth-child(2) {
+    width: 100%;
+    max-width: 333px;
+}
+
+button {
+    letter-spacing: 1.5px;
+    padding: 10px 30px;
+    background-color: rgb(115, 119, 119);
+    color: rgb(202, 229, 222);
+    border-radius: 5px;
+    cursor: pointer;
+}
